@@ -1,0 +1,25 @@
+header{
+    width: 100%;
+    background-color: burlywood;
+    
+}
+.navbar-items{
+    display: flex;
+    flex-direction: row;
+    column-gap: 25%;
+    
+}
+.navbar-text{
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    align-items: center;
+
+    
+}
+
+a:hover{
+    font-size: 50px;
+}
