@@ -1,7 +1,13 @@
- 
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+}
 header{
     width: 100%;
-    background-color: burlywood;
+    background-color: rgb(222, 229, 155);
     
 }
 .navbar-items{
@@ -10,7 +16,10 @@ header{
     column-gap: 25%;
     
 }
-.navbar-text{
+#nav-bar{
+   position: relative;
+}
+.nav-link{
     text-align: center;
     font-size: 25px;
     display: flex;
@@ -23,4 +32,17 @@ header{
 
 a:hover{
     font-size: 50px;
+    color: red;
 }
+.container2{
+    width: 49%;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    
+}
+
