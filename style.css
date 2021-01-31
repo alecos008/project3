@@ -1,13 +1,19 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flexbox;
+    background-color: black;
+    color: blanchedalmond;
 }
 .container1{
     display: flex;
     flex-direction: row;
+    
 }
 header{
     width: 100%;
-    background-color: rgb(12, 12, 12);
+    background-color: black;
+    position: fixed;
+    align-self: flex-start;
     
 }
 .navbar-items{
@@ -15,9 +21,6 @@ header{
     flex-direction: row;
     column-gap: 25%;
     
-}
-#nav-bar{
-   position: relative;
 }
 .nav-link{
     text-align: center;
@@ -33,10 +36,13 @@ a:hover{
     color: red;
 }
 .container2{
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: row;
     font-size: 20px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    
 }
 #submit:hover{
     background-color: blue;
@@ -44,9 +50,36 @@ a:hover{
 }
 form{
     display: flex;
-   
    align-items: center;
 }
+.container3{
+    margin-left: 5%;
+    width: 90%;
+    font-size: 20px;
+    text-align: center;  
+}
+
+h2{
+    text-align: center;
+}
+
+.container4{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    text-align: center; 
+    font-size: 20px;
+}
+.container5{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    text-align: center; 
+    font-size: 20px;
+}
+
 
 
 
